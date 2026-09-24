@@ -1,6 +1,6 @@
 const forwardSound = new Audio('./assets/lancer-splat.mp3');
 const reverseSound = new Audio('./assets/reverse-lancer-splat.mp3');
-const sfxVolume = 0.5;
+const sfxVolume = 0.25;
 
 forwardSound.volume = sfxVolume;
 reverseSound.volume = sfxVolume;
