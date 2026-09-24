@@ -16,3 +16,50 @@ main {
 .links {
   margin-top: 2rem;
 }
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.result-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.result-toggle {
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.result-toggle:hover,
+.result-toggle:focus-visible {
+  background-color: white;
+  color: black;
+}
+
+.result-display {
+  position: relative;
+  width: min(100%, 1000px);
+  aspect-ratio: 1000 / 1015;
+}
+
+.result-image {
+  max-width: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.result-image img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
