@@ -1,5 +1,9 @@
 const forwardSound = new Audio('./assets/lancer-splat.mp3');
 const reverseSound = new Audio('./assets/reverse-lancer-splat.mp3');
+const sfxVolume = 0.5;
+
+forwardSound.volume = sfxVolume;
+reverseSound.volume = sfxVolume;
 
 document.querySelectorAll('.result-toggle').forEach((button) => {
   button.addEventListener('click', () => {
