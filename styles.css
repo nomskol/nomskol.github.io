@@ -63,3 +63,7 @@ main {
   width: 100%;
   height: auto;
 }
+
+#bdsm-results img {
+  width: 75%;
+}
